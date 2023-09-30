@@ -13,7 +13,7 @@ public class EmployeeProject {
     public static void main(String[] args) {
        //The salary for all Employee classes is found in the display method
        //The computeSalary method is called in their display methods
-       System.out.println("----------VERSION 2: USING INHERITANCE----------\n");
+       System.out.println("----------VERSION 3: USING INHERITANCE (WITH NAME CLASS)----------\n");
        System.out.println("----------HOURLY EMPLOYEE AND CONSTRUCTORS----------");
        Date emp1Bday = new Date(27, 02, 2003);
        Date emp1HireDate = new Date(15, 12, 2022); 
