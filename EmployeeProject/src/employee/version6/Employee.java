@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package employee.version5;
+package employee.version6;
 
 /**
  *
  * @author Cedric
  */
-public class Employee {
+abstract class Employee {
     private int empID;
     private Name empName; 
     private Date empDateHired;
@@ -59,6 +59,8 @@ public class Employee {
     public void setEmpBirthDate(Date empBirthDate) {
         this.empBirthDate = empBirthDate;
     }
+    
+    public abstract double computeSalary();
     
     public void displayInfo(){
         

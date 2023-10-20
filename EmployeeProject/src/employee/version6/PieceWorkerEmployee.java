@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package employee.version5;
+package employee.version6;
 
 /**
  *
@@ -48,6 +48,7 @@ public class PieceWorkerEmployee extends Employee{
         this.ratePerPiece = ratePerPiece >= 0 ? ratePerPiece: 0;
     }
     
+    @Override
     public double computeSalary(){
         
         float salary = this.totalPiecesFinished * this.ratePerPiece;
